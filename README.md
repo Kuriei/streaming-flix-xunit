@@ -22,6 +22,22 @@ Projeto desenvolvido por:
 - **MARIA LUÍSA DO CARMO CARDOSO** – RA: 325116932
 - **YASMIN APARECIDA SOUZA DE PAULA** – RA: 32612974
 
+## Cobertura dos Testes
+Os testes verificam as principais regras da aplicação:
+Classificação dos Planos
+- 1 tela: BÁSICO
+- 2 telas: PADRÃO
+- 4 ou mais telas: PREMIUM
+Cálculo de Desconto
+- Menos de 6 meses: sem desconto
+- De 6 a 11 meses: 10% de desconto
+- 12 meses ou mais: 20% de desconto
+Acesso a Conteúdo Adulto
+O acesso é permitido somente quando:
+- A idade é igual ou superior a 18 anos.
+- O controle parental está desativado.
+Os testes utilizam diferentes cenários para garantir que essas regras funcionem corretamente.
+
 ## Requisitos
 
 - .NET 10 SDK
